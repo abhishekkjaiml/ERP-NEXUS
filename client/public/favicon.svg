@@ -1,0 +1,48 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512"
+     height="512"
+     viewBox="0 0 512 512">
+
+  <defs>
+    <linearGradient id="blueGradient"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512"
+        rx="110" fill="#FFFFFF"/>
+
+  <!-- Outer circular ring -->
+  <circle cx="256" cy="256" r="195"
+          fill="none"
+          stroke="url(#blueGradient)"
+          stroke-width="28"
+          stroke-linecap="round"
+          stroke-dasharray="1050 180"
+          transform="rotate(-45 256 256)"/>
+
+  <!-- Analytics bars -->
+  <rect x="145" y="245" width="58" height="125"
+        rx="12" fill="#1E3A8A"/>
+
+  <rect x="225" y="195" width="58" height="175"
+        rx="12" fill="#2563EB"/>
+
+  <rect x="305" y="145" width="58" height="225"
+        rx="12" fill="#06B6D4"/>
+
+  <!-- Growth line -->
+  <path d="M145 220 L225 165 L305 115 L365 80"
+        fill="none"
+        stroke="url(#blueGradient)"
+        stroke-width="20"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+</svg>
